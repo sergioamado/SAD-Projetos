@@ -33,6 +33,10 @@ st.markdown("# 🚀 Inovação Tecnológica no Brasil")
 # Carrega o arquivo CSV contendo os dados para análise
 df = pd.read_csv('pro-csv-produtos-de-inovacao.csv')  # O arquivo deve conter as colunas especificadas
 
+st.markdown("DADOS TOTAIS")
+st.write(df)
+
+
 # ---------------- Gráfico 1: Tipos de Propriedade Intelectual ----------------
 # Adiciona um título para a seção
 st.markdown("## 📊 Tipos de Propriedade Intelectual")
